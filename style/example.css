@@ -1,0 +1,81 @@
+body {
+    font-family: "Times New Roman"; /* Семейство шрифтов */
+    font-size: 11pt; /* Размер основного шрифта в пунктах  */
+    background-color: #f0f0f0; /* Цвет фона веб-страницы */
+    color: black; /* Цвет основного текста */
+    width: 1000px;
+    horiz-align: center;
+
+}
+
+img {
+    width: 200px;
+    height: 70px;
+    margin-top: 5px;
+    border-top: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    border-left: 5px;
+    padding-left: 5px;
+}
+
+ul.lefting{
+    font-size: 14pt;
+    font-family: "Times New Roman", Verdana, sans-serif;
+    text-align: left;
+    list-style-type: none;
+    color: black;
+    width: 200px;
+    float: left;
+    position: absolute;
+    left: -20px;
+    margin: fill;
+}
+
+li.lefting{
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+a {
+    color: #000080; /* Цвет обычной ссылки */
+    padding: 2px; /* Поля вокруг текста */
+    text-decoration: none;
+}
+a:visited {
+    color: #800080; /* Цвет посещенной ссылки */
+}
+a:hover {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */
+    background: #e24486; /* Цвет фона */
+}
+
+li.toping {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14pt;
+    font-family: "Times New Roman", Verdana, sans-serif;
+}
+
+div.toping {
+    height: 100px;
+    padding: 5px;
+    float: right;
+    position: relative;
+    top: -72px;
+    left: 0px;
+}
+
+a.lefting {
+    color: #000080; /* Цвет обычной ссылки */
+    padding: 2px; /* Поля вокруг текста */
+    text-decoration: none;
+}
+
+a.toping {
+    color: #000080; /* Цвет обычной ссылки */
+    padding: 2px; /* Поля вокруг текста */
+    text-decoration: none;
+}
+
