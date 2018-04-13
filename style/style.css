@@ -4,22 +4,23 @@ html {
 }
 
 body {
-    width: 700px;
+    width: 1100px;
     background-color: aqua;
 }
 
 header {
+    width: 100%;
     height: 100px;
+}
+
+header nav {
+    position: relative;
+    top: -70px;
+    left: 600px;
 }
 
 header ul {
     list-style-type: none;
-    position: relative;
-    top: -72px;
-    left: 600px;
-    /*padding: 5px;*/
-    /*border: 5px;*/
-    /*float: right;*/
 }
 
 header ul li {
@@ -42,11 +43,13 @@ header a:visited {
 header a:hover {
     text-decoration: none; /* Убираем подчеркивание */
     color: cornsilk; /* Цвет ссылки при наведении на нее курсора мыши */
-    /*background: #e24486; /* Цвет фона */
-    /*box-shadow:#e24486;*/
 }
 
 menu {
+
+}
+
+menu div {
     width: 200px;
 }
 
@@ -60,13 +63,13 @@ menu ul {
     float: left;
     position: absolute;
     margin: fill;
-    left: -32px;
+    left: -30px;
     top: 60px;
 }
 
 menu a {
+    display: block;
     color: #000080; /* Цвет обычной ссылки */
-    padding: 2px; /* Поля вокруг текста */
     text-decoration: none;
 }
 
@@ -77,11 +80,11 @@ menu a:visited {
 menu a:hover {
     text-decoration: none; /* Убираем подчеркивание */
     color: cornsilk; /* Цвет ссылки при наведении на нее курсора мыши */
-    /*background: #e24486; /* Цвет фона */
-    /*box-shadow:#e24486;*/
+    display: block;
 }
 
 menu li {
+    display: block;
     border-bottom: 1px solid;
     border-color: #8e0b01;
     padding-left: 5px;
@@ -90,6 +93,7 @@ menu li {
 }
 
 menu li:hover {
+    display: block;
     text-decoration: none;
     background: green;
 }
@@ -110,14 +114,11 @@ content div {
 
 content p {
     margin-top: 0px;
-    /*margin-left: 220px;*/
     width: 1100px;
     font: 18px "Times New Roman";
 }
 
-content table{
-    /*position: relative;*/
-    /*left: 220px;*/
+content table {
     width: 1100px;
     height: 50px;
     border: 1px solid;
@@ -125,28 +126,27 @@ content table{
     text-align: center;
 }
 
-content th{
+content th {
     padding: 5px;
     margin: 0px;
-    background-color: blue;
+    background-color: cornflowerblue;
     text-align: center;
-
 }
 
-content tr{
+content tr {
     height: 30px;
 }
 
-content a{
+content a {
     text-decoration: none;
 }
 
-content a[href="https://www.microsoft.com/ru-ru/"]{
+content a[href="https://www.microsoft.com/ru-ru/"] {
     color: blue;
     font-weight: bold;
 }
 
-content a[href="https://ru.wikipedia.org/wiki/Netscape_Communications"]{
+content a[href="https://ru.wikipedia.org/wiki/Netscape_Communications"] {
     color: red;
 }
 
@@ -191,8 +191,6 @@ footer a:visited {
 footer a:hover {
     text-decoration: none; /* Убираем подчеркивание */
     color: cornsilk; /* Цвет ссылки при наведении на нее курсора мыши */
-    /*background: #e24486; !* Цвет фона */
-    /*box-shadow:#e24486;*/
 }
 
 footer {
@@ -203,12 +201,12 @@ footer {
     width: 1300px;
 }
 
-footer ul{
+footer ul {
     margin: 0px;
     float: left;
 }
 
-footer li{
+footer li {
     margin-right: 5px;
     display: inline;
 }
@@ -221,7 +219,7 @@ footer li:first-child::before {
     content: none;
 }
 
-footer p{
+footer p {
     margin-top: 0px;
     padding-left: 100px;
 }
