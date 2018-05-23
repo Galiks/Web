@@ -4,30 +4,55 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Title</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--reset.css-->
+    <link rel="stylesheet" href="../styles/reset.css">
+
     <link rel="stylesheet" href="../styles/style.css">
+    <script src="../js/mainScript.js"></script>
 </head>
 <body>
+
 <h1>JS Basics</h1>
-<h2>Count numbers</h2>
-<div class="task_one">
-    <div><input id="task_one_input" type="text" value="" placeholder="Enter phrase">
-        <button id="task_one_button">Count</button>
-    </div>
-    <p id="task_one_output">Результат будет тут</p>
-</div>
+
+<h2>Count Numbers</h2>
+<input type="text" id="calcPhrase_in" value="5ежей+5жирафов*на4верблюда/на2дельфина=">
+<button onclick="calcPhrase()">Count</button>
+<input type="text" id="calcPhrase_out" placeholder="result">
 
 <h2>Delete Repeated</h2>
-<div class="task_two">
-    <div>
-        <input class="delete" id="task_two_input" type="text" value="">
-        <button id="task_two_button">
-            Delete
-        </button>
-    </div>
-    <p id="task_two_output">Результат: будет тут</p>
-</div>
+<input class="delete" type="text" id="input_two" value="Qwerty qwert">
+<button onclick="duplicateIsEvil()">Delete</button>
+<input type="text" id="die" placeholder="result">
 
-<script src="../js/scripts.js"></script>
+<h2>Count Numbers</h2>
+
+<form role="form">
+    <h4 class="m-1 mb-4">Format date</h4>
+    <div class="form-group row">
+        <div class="col-12">
+            <input type="datetime-local" class="form-control" value="2015-02-04T05:07:08" step="1" id="datetime_in" title="datetime">
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-12">
+            <input type="text" class="form-control" id="pattern" value="Why aMMMM I writing some text here??" placeholder="pattern">
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-12">
+            <input type="text" class="form-control" id="datetime_out" placeholder="result">
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="button" class="btn btn-dark" onclick="datetimeParse()">Format</button>
+    </div>
+</form>
+
 
 </body>
 </html>
