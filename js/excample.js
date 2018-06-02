@@ -212,12 +212,80 @@ Date.prototype.format = function (str) {
     alert(str)
 }
 
-function secondZero(num)
-{
-    if(num<10) {
-        return "0"+num
+function getHourWithZero(hours, zero) {
+    if (hours >= 0 && hours <= 9) {
+        return zero ? "0" + hours : hours
+    }
+    if (hours >= 10 && hours <= 12) {
+        return hours
+    }
+    if (hours >= 13 && hours <= 21) {
+        return zero ? "0" + hours % 12 : hours % 12
+    }
+    if (hours >= 22 && hours < 24) {
+        return hours % 12 !== 0 ? hours % 12 : "00"
+    }
+}
+
+function secondTry3Task() {
+
+    var testing;
+
+    var date = new Date(document.getElementById("datetime_in").value);
+    var pattern = document.getElementById("pattern").value; //^(h)|(h)$| (h)
+    var result = pattern.match(/[y]{2,4}|[m]{1,2}|[M]{1,4}|[h]{1,2}|[d]{1,2}|[s]{1,2}|[H]{1,2}/g);
+///[y]{2,4}|[M]{1,4}|[d]{1,2}|[H]{1,2}|[h]{1,2}|[m]{1,2}|[s]{1,2}/g
+///[y]{2,4}|[M]{1,4}|[d]{1,2}|[H]{1,2}|^(h{1,2})|(h{1,2})$| (h{1,2})|[m]{1,2}|[s]{1,2}/g
+
+    if (result.length > 0) {
+        for (let i = 0; i < result.length; i++) {
+            // alert(result[i])
+            pattern = findAndReplace(result[i], pattern, date)
+        }
     }
     else {
-        return num
+        document.getElementById("datetime_out").value = error
     }
+
+
+    function findAndReplace(value, pattern, date) {
+        switch (value) {
+            case 'yyyy':
+                return pattern.replace(/yyyy/g, date.getFullYear());
+            case 'yy':
+                return pattern.replace(/yy/g, date.getFullYear() % 100 >= 10 ? date.getFullYear() % 100 : "0" + date.getFullYear() % 100);
+            case 'MMMM':
+                return pattern.replace(/MMMM/g, date.toLocaleString("en", {month: "long"}));
+            case 'MMM':
+                return pattern.replace(/MMM/g, date.toLocaleString("en", {month: "short"}));
+            case 'MM':
+                return pattern.replace(/MM/g, date.getMonth() + 1 >= 10 ? date.getMonth() + 1 : "0" + (date.getMonth() + 1));
+            case 'M':
+                return pattern.replace(/M/g, date.getMonth() + 1);
+            case "dd":
+                return pattern.replace(/dd/g, date.getDate() >= 10 ? date.getDate() : "0" + date.getDate());
+            case "d":
+                return pattern.replace(/d/g, date.getDate());
+            case "HH":
+                return pattern.replace(/HH/g, date.getHours() >= 10 ? date.getHours() : "0" + date.getHours());
+            case "H":
+                return pattern.replace(/H/g, date.getHours());
+            case "hh":
+                return pattern.replace(/hh/g, getHourWithZero(date.getHours(), true));
+            case "h":
+                return pattern.replace(/h/g, getHourWithZero(date.getHours(), false));
+            case "mm":
+                return pattern.replace(/mm/g, date.getMinutes() >= 10 ? date.getMinutes() : "0" + date.getMinutes());
+            case "m":
+                return pattern.replace(/m/g, date.getMinutes());
+            case "ss":
+                return pattern.replace(/ss/g, date.getSeconds() >= 10 ? date.getSeconds() : "0" + date.getSeconds());
+            case "s":
+                return pattern.replace(/s/g, date.getSeconds());
+            default:
+                return pattern
+        }
+    }
+
+    document.getElementById("datetime_out").value = pattern
 }
