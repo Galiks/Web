@@ -1,0 +1,42 @@
+body {
+    background: red;
+}
+
+div {
+    background: repeating-linear-gradient(
+    transparent,
+    transparent 20px,
+    red 20px,
+    red 23px),
+    linear-gradient(to bottom,
+            yellow,
+            blue);
+    width: 45px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 5px 5px 0 0;
+}
+/*23 = 1*/
+.column1 {
+    height: 115px;
+}
+
+.column2 {
+    height: 46px;
+}
+
+.column3 {
+    height: 184px;
+}
+
+.column4 {
+    height: 230px;
+}
+
+.column5 {
+    height: 115px;
+}
+
+.column6 {
+    height: 69px;
+}
