@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+td, th {
+    border: 1px solid black;
+    position: relative;
+}
+
+td {
+    width: 58px;
+    height: 58px;
+}
+
+td:before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: darkblue;
+    position: absolute;
+    top: calc(50% - 20px);
+    right: calc(50% - 20px);
+}
+
+tbody tr:hover {
+    background: red;
+}
+
+tbody td:hover:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -5000px;
+    height: 10000px;
+    width: 100%;
+    background: blue;
+    z-index: -1;
+}
+
+tbody td:hover:before {
+    background: white;
+}
+
+tbody td:hover {
+    background: fuchsia;
+}
