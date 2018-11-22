@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9f37030-b016-467f-a686-463ffdbed71f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/NumberSix.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/styles/noBootstrap/css/all.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/styles/noBootstrap/css/fontawesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/styles/noBootstrap/css/media.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/styles/noBootstrap/css/style.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/image/first-screen-bg.jpg" afterPath="$PROJECT_DIR$/image/first-screen-bg.jpg" />
-      <change beforePath="$PROJECT_DIR$/image/footer-bg.jpg" afterPath="$PROJECT_DIR$/image/footer-bg.jpg" />
-      <change beforePath="$PROJECT_DIR$/image/work-img-1.jpg" afterPath="$PROJECT_DIR$/image/work-img-1.jpg" />
-      <change beforePath="$PROJECT_DIR$/image/work-img-2.jpg" afterPath="$PROJECT_DIR$/image/work-img-2.jpg" />
-      <change beforePath="$PROJECT_DIR$/image/work-img-3.jpg" afterPath="$PROJECT_DIR$/image/work-img-3.jpg" />
-      <change beforePath="$PROJECT_DIR$/image/work-img-4.jpg" afterPath="$PROJECT_DIR$/image/work-img-4.jpg" />
-      <change beforePath="$PROJECT_DIR$/image/work-img-5.jpg" afterPath="$PROJECT_DIR$/image/work-img-5.jpg" />
-      <change beforePath="$PROJECT_DIR$/image/work-img-6.jpg" afterPath="$PROJECT_DIR$/image/work-img-6.jpg" />
       <change beforePath="$PROJECT_DIR$/pages/NumberFive.html" afterPath="$PROJECT_DIR$/pages/NumberFive.html" />
-      <change beforePath="$PROJECT_DIR$/styles/bootstrap/fontawesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/styles/bootstrap/style.css" afterPath="$PROJECT_DIR$/styles/bootstrap/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,31 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/bootstrap/media.css">
+      <file leaf-file-name="NumberSix.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/NumberSix.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="51">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/bootstrap/style.css">
+        <entry file="file://$PROJECT_DIR$/styles/noBootstrap/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3621">
-              <caret line="213" column="20" lean-forward="false" selection-start-line="213" selection-start-column="20" selection-end-line="213" selection-end-column="20" />
+            <state relative-caret-position="3995">
+              <caret line="235" column="50" lean-forward="false" selection-start-line="235" selection-start-column="50" selection-end-line="235" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberFive.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/NumberFive.html">
+      <file leaf-file-name="media.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/noBootstrap/css/media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="225" column="64" lean-forward="false" selection-start-line="225" selection-start-column="64" selection-end-line="225" selection-end-column="64" />
+            <state relative-caret-position="-3501">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -75,9 +70,13 @@
       <find>href</find>
       <find>/* END WORK */</find>
       <find>footer</find>
+      <find>./img</find>
+      <find>im</find>
+      <find>img</find>
     </findStrings>
     <replaceStrings>
       <replace>a href=&quot;target:_blank&quot; target=&quot;_blank&quot;</replace>
+      <replace>../image</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -96,6 +95,8 @@
         <option value="$PROJECT_DIR$/NumberFive.html" />
         <option value="$PROJECT_DIR$/styles/bootstrap/style.css" />
         <option value="$PROJECT_DIR$/pages/NumberFive.html" />
+        <option value="$PROJECT_DIR$/pages/NumberSix.html" />
+        <option value="$PROJECT_DIR$/styles/noBootstrap/css/style.css" />
       </list>
     </option>
   </component>
@@ -148,8 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,12 +170,21 @@
               <item name="Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="noBootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="noBootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,15 +196,16 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Documents\GitHub\Web\styles\noBootstrap" />
+      <recent name="E:\Documents\GitHub\Web\image" />
+      <recent name="E:\Documents\GitHub\Web\styles" />
+      <recent name="C:\Users\Pavel\WebstormProjects\Task_1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Documents\GitHub\Web\pages" />
       <recent name="E:\Documents\GitHub\Web\styles\bootstrap" />
       <recent name="C:\Users\Pavel\WebstormProjects\Task_1\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Documents\GitHub\Web\image" />
-      <recent name="E:\Documents\GitHub\Web\styles" />
-      <recent name="C:\Users\Pavel\WebstormProjects\Task_1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -211,20 +220,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.NumberFive.html">
+  <component name="RunManager" selected="JavaScript Debug.NumberSix.html">
     <configuration name="NumberFive.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web/pages/NumberFive.html" />
     <configuration name="NumberFour.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web/pages/NumberFour.html" />
+    <configuration name="NumberSix.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web/pages/NumberSix.html" />
     <configuration name="NumberThree.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web/pages/NumberThree.html" />
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.NumberThree.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.NumberFour.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.NumberFive.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.NumberSix.html" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.NumberFive.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.NumberFour.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.NumberThree.html" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.NumberSix.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.NumberFive.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.NumberFour.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.NumberThree.html" />
       </list>
     </recent_temporary>
   </component>
@@ -251,14 +263,16 @@
       <workItem from="1541049745504" duration="1617000" />
       <workItem from="1541626502132" duration="4409000" />
       <workItem from="1542258171514" duration="2298000" />
+      <workItem from="1542862328736" duration="2702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31820000" />
+    <option name="totallyTimeSpent" value="34522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -291,6 +305,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/styles/bootstrap/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/bootstrap/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3621">
+          <caret line="213" column="20" lean-forward="false" selection-start-line="213" selection-start-column="20" selection-end-line="213" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/NumberFive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3825">
+          <caret line="225" column="64" lean-forward="false" selection-start-line="225" selection-start-column="64" selection-end-line="225" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/bootstrap/media.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -345,14 +383,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/bootstrap/fontawesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/bootstrap/fontawesome.min.css" />
     <entry file="file://$PROJECT_DIR$/pages/NumberFive.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -500,14 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/bootstrap/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3621">
-          <caret line="213" column="20" lean-forward="false" selection-start-line="213" selection-start-column="20" selection-end-line="213" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/bootstrap/media.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -516,7 +539,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/bootstrap/fontawesome.min.css">
+    <entry file="file://$PROJECT_DIR$/styles/bootstrap/fontawesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/pages/NumberFive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/bootstrap/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="219" column="20" lean-forward="true" selection-start-line="219" selection-start-column="20" selection-end-line="219" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/noBootstrap/css/all.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -524,10 +564,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/NumberFive.html">
+    <entry file="file://$PROJECT_DIR$/styles/noBootstrap/css/fontawesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="225" column="64" lean-forward="false" selection-start-line="225" selection-start-column="64" selection-end-line="225" selection-end-column="64" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/NumberSix.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/noBootstrap/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3995">
+          <caret line="235" column="50" lean-forward="false" selection-start-line="235" selection-start-column="50" selection-end-line="235" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/noBootstrap/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3501">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding />
         </state>
       </provider>
