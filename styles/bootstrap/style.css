@@ -55,10 +55,8 @@ body :-ms-input-placeholder {
 /* FIRST SCREEN */
 .first-screen-wrapper {
   text-align: center;
-  background-image: url("../img/first-screen-bg.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background: url('/Web/image/first-screen-bg.jpg') no-repeat 50% 50%;
   height: 100vh;
   margin: 0 -15px;
 }
@@ -213,7 +211,8 @@ body :-ms-input-placeholder {
 
 .footer-wrapper {
   background-size: cover;
-  background: url("../image/footer-bg.jpg") no-repeat 50% 50%;
+  background: url('/Web/image/footer-bg.jpg') no-repeat 50% 50%;
+  /*background-image: url("E:/Documents/GitHub/Web/image/footer-bg.jpg");*/
   margin: 0 -15px;
   text-align: center;
   padding: 40px 0;
