@@ -4,15 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9f37030-b016-467f-a686-463ffdbed71f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/NumberSix.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/styles/noBootstrap/css/all.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/styles/noBootstrap/css/fontawesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/styles/noBootstrap/css/media.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/styles/noBootstrap/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pages/NumberFive.html" afterPath="$PROJECT_DIR$/pages/NumberFive.html" />
-    </list>
+    <list default="true" id="c9f37030-b016-467f-a686-463ffdbed71f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -263,16 +255,15 @@
       <workItem from="1541049745504" duration="1617000" />
       <workItem from="1541626502132" duration="4409000" />
       <workItem from="1542258171514" duration="2298000" />
-      <workItem from="1542862328736" duration="2702000" />
+      <workItem from="1542862328736" duration="2724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34522000" />
+    <option name="totallyTimeSpent" value="34544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
